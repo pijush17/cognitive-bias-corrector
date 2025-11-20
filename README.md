@@ -1,6 +1,6 @@
 # 📘 Project Description
 <p align="center">
-  <img src="thumbnail.png" width="560" height="280" />
+  <img src="thumbnail.png" width="100%" />
 </p>
 
 # 1. Problem Statement
