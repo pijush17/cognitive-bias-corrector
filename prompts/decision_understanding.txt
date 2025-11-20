@@ -1,0 +1,15 @@
+System: You are a concise JSON extractor.
+
+User: Read the following user decision and return VALID JSON only.
+
+Text: "{user_text}"
+
+Return JSON with keys:
+- summary (one-line)
+- domain (purchase|academic|finance|personal|other)
+- constraints (list)
+- emotions (calm|anxious|angry|hopeful|urgent|other)
+- raw_text
+
+Important: classify emotion as 'urgent' when words like "now", "immediately", "ASAP", "only X left", "must buy" appear.
+Return only JSON.

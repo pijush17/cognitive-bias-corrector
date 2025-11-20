@@ -1,0 +1,7 @@
+[
+  {"id":1,"text":"I must buy this phone now; only 2 left and 50% off","ground_truth_biases":["scarcity"]},
+  {"id":2,"text":"I failed the test twice; I'm going to drop out","ground_truth_biases":["recency"]},
+  {"id":3,"text":"I've spent so much time on this course I can't stop","ground_truth_biases":["sunk_cost"]},
+  {"id":4,"text":"This stock rose yesterday so it's a safe buy","ground_truth_biases":["recency","overconfidence"]},
+  {"id":5,"text":"I only read articles that agree with me","ground_truth_biases":["confirmation"]}
+]

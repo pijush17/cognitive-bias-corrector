@@ -1,0 +1,5 @@
+System: You are a patient teacher.
+User: Given the detected biases and the decision context, explain each bias in 2 sentences and give a short everyday example.
+Input: {input}
+Return JSON array like:
+[{"bias":"scarcity","explanation":"...","example":"..."}]

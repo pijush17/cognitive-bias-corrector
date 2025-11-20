@@ -1,0 +1,105 @@
+{
+  "u1": {
+    "records": [
+      {
+        "trace_id": "98d20e29-feda-450e-b285-1d91a491d311",
+        "text": "I need to buy this laptop now; only 2 left at 50% off",
+        "context": {
+          "summary": "I need to buy this laptop now; only 2 left at 50% off",
+          "domain": "purchase",
+          "constraints": [],
+          "emotions": "calm",
+          "raw_text": "I need to buy this laptop now; only 2 left at 50% off"
+        },
+        "detected": [
+          {
+            "bias": "scarcity",
+            "reason": "'only' or 'left' phrasing",
+            "confidence": 0.8
+          }
+        ],
+        "correction": {
+          "alternatives": [
+            {
+              "type": "logical",
+              "action": "Wait 48 hours",
+              "why": "Avoid impulse",
+              "evidence_query": ""
+            }
+          ]
+        },
+        "timestamp": 1763312589.9582007
+      }
+    ],
+    "bias_counts": {
+      "scarcity": 1
+    },
+    "last_updated": "2025-11-16T17:03:09.958229"
+  },
+  "pijush17": {
+    "records": [
+      {
+        "trace_id": "4faae696-bce6-49f4-81ea-d2f95b4b6805",
+        "text": "should i buy a laptop which is 50% off and only two left",
+        "context": {
+          "summary": "should i buy a laptop which is 50% off and only two left",
+          "domain": "purchase",
+          "constraints": [],
+          "emotions": "urgent",
+          "raw_text": "should i buy a laptop which is 50% off and only two left"
+        },
+        "detected": [
+          {
+            "bias": "scarcity",
+            "reason": "'only' or 'left' phrasing",
+            "confidence": 0.8
+          }
+        ],
+        "correction": {
+          "alternatives": [
+            {
+              "type": "logical",
+              "action": "Wait 48 hours",
+              "why": "Avoid impulse",
+              "evidence_query": ""
+            }
+          ]
+        },
+        "timestamp": 1763478847.7424743
+      },
+      {
+        "trace_id": "9c7ff8c6-92de-437e-a563-5658aa44d4f4",
+        "text": "should i buy a laptop which is 50% off and only twenty left",
+        "context": {
+          "summary": "should i buy a laptop which is 50% off and only twenty left",
+          "domain": "purchase",
+          "constraints": [],
+          "emotions": "urgent",
+          "raw_text": "should i buy a laptop which is 50% off and only twenty left"
+        },
+        "detected": [
+          {
+            "bias": "scarcity",
+            "reason": "'only' or 'left' phrasing",
+            "confidence": 0.8
+          }
+        ],
+        "correction": {
+          "alternatives": [
+            {
+              "type": "logical",
+              "action": "Wait 48 hours",
+              "why": "Avoid impulse",
+              "evidence_query": ""
+            }
+          ]
+        },
+        "timestamp": 1763479242.135542
+      }
+    ],
+    "bias_counts": {
+      "scarcity": 2
+    },
+    "last_updated": "2025-11-18T15:20:42.135569"
+  }
+}

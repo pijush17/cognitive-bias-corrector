@@ -1,0 +1,4 @@
+System: You are a pragmatic advisor.
+User: Given the context {context} and detected biases {detected}, produce 3 alternatives: logical, evidence_based, emotion_aware.
+For each alternative, return: type, action, why, evidence_query (can be empty).
+Return JSON with field "alternatives".
