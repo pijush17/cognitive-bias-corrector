@@ -101,6 +101,15 @@ The Cognitive Bias Corrector demonstrates how multi-agent systems can meaningful
 cd C:\projects\bias-corrector
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
+##
+2. Install dependencies
+```powershell
+pip install -r requirements.txt
+Start the FastAPI server
+python -m uvicorn src.main:app --host 127.0.0.1 --port 8000
+Open API Docs
+http://127.0.0.1:8000/docs
+
 
 
 
