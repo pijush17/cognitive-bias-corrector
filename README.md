@@ -15,7 +15,7 @@ The Cognitive Bias Corrector is a multi-agent concierge assistant that acts as a
 
 This assistant can guide users in everyday situations—whether deciding to buy a laptop, dealing with academic stress, evaluating online reviews, or questioning habits influenced by sunk costs. Its ability to offer personalized, evidence-backed, and bias-aware insights makes it ideal for a concierge-style decision-support system.
 
-#3. Architecture
+# 3. Architecture
 
 The Cognitive Bias Corrector follows a multi-agent orchestration architecture, where each agent specializes in a specific phase of understanding, evaluating, and improving human decision inputs. The system is coordinated by the interactive_decision_agent, which acts as the main controller and routes information through the pipeline. The architecture is composed of two key loop-based subsystems—context extraction and bias mitigation—ensuring iterative refinement at each stage.
 
@@ -44,7 +44,7 @@ The loop is supported by the session_service, which maintains session history, m
 
 Finally, the trace_logger captures detailed logs of each reasoning step, including timing, agent outputs, and transitions across decision stages. This transparency is essential for evaluation, debugging, and ensuring that the system’s behavior is fully auditable.
 
-# 5. Technical Implementation 
+# 4. Technical Implementation 
 
 **The project is implemented using:**
 
@@ -75,7 +75,7 @@ Tool → Final corrected decision
 
 Save bias results → Memory Bank
 
-# 6. Evaluation
+# 5. Evaluation
 
 The Cognitive Bias Corrector includes a streamlined evaluation pipeline designed to measure how accurately and consistently the system detects biases, explains them, and provides rational alternatives. A set of curated test cases representing real-world decisions—such as purchasing under urgency, emotional reasoning, social pressure, and loss aversion—is provided in test_cases.json.
 
@@ -89,7 +89,7 @@ Mitigation Quality: Assessed by completeness and rationality of alternatives
 
 Response Time: Measures performance of the multi-agent pipeline
 
-# 7. Conclusion 
+# 6. Conclusion 
 
 The Cognitive Bias Corrector demonstrates how multi-agent systems can meaningfully improve everyday decision-making by identifying cognitive biases, explaining their influence, and offering rational, unbiased alternatives. Through a structured pipeline of specialized agents, loop-based refinement, memory, sessions, and observability tools, the system delivers transparent and reliable reasoning. The evaluation results confirm consistent bias detection and high-quality mitigation suggestions across diverse real-world scenarios.
 
