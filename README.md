@@ -4,7 +4,7 @@
 
 ## 📘 Project Description
 
-1. Problem Statement
+#1. Problem Statement
 
 People make dozens of decisions every single day—what to buy, which route to take, whether to trust certain information, how to respond emotionally, and which opportunities to pursue. However, research in behavioral psychology shows that over 80% of everyday decisions are unconsciously influenced by cognitive biases. These biases include confirmation bias, loss aversion, overconfidence, scarcity bias, emotional reasoning, sunk-cost fallacy, anchoring, and many others. As a result, people often make choices that are distorted, irrational, or misaligned with their actual goals. These biases distort judgment, reduce rationality, and often lead to regretful or suboptimal outcomes.
 
@@ -102,4 +102,7 @@ cd C:\projects\bias-corrector
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
-2. Install dependencies
+
+
+
+
